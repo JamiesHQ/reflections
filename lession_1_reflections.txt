@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help 
+you see the bug that was introduced?
+
+    It isolated the lines that had changed and identified
+    which lines were added and which were removed. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It is helpful in seeing the evolution of a piece of code and finding where
+    a bug could have been introduced.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manually choosing when to create a commit include: each version being
+    a approved set of changes rather than a random point-in-time capture of whatever
+    was going on at the time. Cons include risk of losing work halfway through finishing
+    the work or just before committing, having to wait for a finished product rather than 
+    seeing the real-time changes. Pros of autosaving include up-to-the second changes lowers risk of losing information. Cons of autosaving is way too many versions of low value lying around
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    No idea!
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use git diff to see all the changes between a newer and and older version of a file. I can use git log to see all the changes. Git log lets you see the entire commit history for a repo.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It's easier to go back and fix something when you've broken it and know exactly what it was like before! Takes out the guess work.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Contribting to Project Jupyter
+
+
+Notes
+A good rule of thumb is to make one commit per logical change. For example, if you fixed a typo, then fixed a bug in a separate part of the file, you should use one commit for each change since they are logically separate. If you do this, each commit will have one purpose that can be easily understood.
+
