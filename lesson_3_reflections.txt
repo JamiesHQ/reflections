@@ -10,3 +10,6 @@ Describe the differences between forks, clones, and branches. When would you use
 - forks copy the code and create a repo in my GitHub account- changes aren't tracked in the original
 - clones are made between my GitHub repo and my local machine and updates between them are tracked
 - branches are tracked on both my local machine and in GitHub
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- useful if you're working offline and want to merge your work into the origin/master
