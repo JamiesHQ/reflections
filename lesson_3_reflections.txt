@@ -2,3 +2,6 @@ When would you want to create a remote repository rather than keeping all your w
 - when I'm working with others on a code base or project
 - when I'm working on a code base or project from multiple machines
 - when I want a backup of my code base or project
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+- I may want to decide when commit my changes to my remote repository as I make changes to the code locally.
