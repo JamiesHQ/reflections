@@ -3,6 +3,9 @@ When would you want to create a remote repository rather than keeping all your w
 - when I'm working on a code base or project from multiple machines
 - when I want a backup of my code base or project
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+- I may want to decide when commit my changes to my remote repository as I make changes to the code locally.
+
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 - forks copy the code and create a repo in my GitHub account- changes aren't tracked in the original
 - clones are made between my GitHub repo and my local machine and updates between them are tracked
